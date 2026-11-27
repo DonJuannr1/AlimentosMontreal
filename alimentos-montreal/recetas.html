@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es-VE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Recetario Montreal - Cuatro formas de disfrutar lo cremoso</title>
+  <meta name="description" content="Recetas fáciles con Queso Crema, Crema de Leche y Mantequilla Montreal. Dips y fondue explicados paso a paso.">
+  <meta name="theme-color" content="#0E347C">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Recetario Montreal">
+  <meta property="og:description" content="Cuatro recetas cremosas para preparar y compartir.">
+  <meta property="og:image" content="img/receta-fondue-cuatro-quesos.png">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" href="img/favicon-32.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,400..800&family=Hanken+Grotesk:wght@300;400;500;600;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="recetas.css">
+</head>
+<body class="recetario-page">
+  <header class="nav pegado recetario-nav">
+    <div class="nav__in">
+      <a class="nav__logo" href="index.html" aria-label="Volver a Alimentos Montreal">
+        <img src="img/logo-montreal.png" alt="Alimentos Montreal" width="768" height="327">
+      </a>
+      <nav class="nav__links" aria-label="Recetario">
+        <a href="index.html">Página principal</a>
+        <a class="activo" href="#recetas">Recetas</a>
+        <a href="https://wa.me/584246117093?text=Hola%20Alimentos%20Montreal%2C%20quiero%20informaci%C3%B3n%20sobre%20sus%20productos." target="_blank" rel="noopener">Contacto</a>
+      </nav>
+      <a class="btn btn--wa nav__cta" href="https://wa.me/584246117093?text=Hola%20Alimentos%20Montreal%2C%20vi%20el%20recetario%20y%20quiero%20informaci%C3%B3n." target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="rec-hero">
+      <div class="rec-hero__orb rec-hero__orb--red"></div>
+      <div class="rec-hero__orb rec-hero__orb--blue"></div>
+      <div class="rec-hero__content">
+        <p class="eyebrow eyebrow--rojo"><span class="punto"></span> Cocina con Montreal</p>
+        <h1>Una mesa más <em>cremosa</em></h1>
+        <p>Cuatro ideas sencillas para convertir ingredientes cotidianos en algo que provoca repetir.</p>
+        <a class="rec-hero__scroll" href="#recetas">Descubrir recetas <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="rec-hero__stack" aria-hidden="true">
+        <img src="img/receta-ajoporro-cebolla.png" alt="">
+        <img src="img/receta-ajo-perejil.png" alt="">
+        <img src="img/receta-fondue-cuatro-quesos.png" alt="">
+      </div>
+    </section>
+
+    <section class="rec-library" id="recetas">
+      <div class="wrap">
+        <header class="rec-library__head reveal">
+          <div>
+            <p class="eyebrow">Elige tu antojo</p>
+            <h2 class="h2">Recetas para compartir</h2>
+          </div>
+          <p>Abre una tarjeta para ver la preparación completa. Todas usan productos Montreal como base.</p>
+        </header>
+
+        <div class="recipe-grid">
+          <button class="recipe-card recipe-card--red reveal" data-recipe="ajoporro" type="button">
+            <span class="recipe-card__image"><img src="img/receta-ajoporro-cebolla.png" alt="Dip de queso crema con ajoporro y cebolla" loading="lazy"></span>
+            <span class="recipe-card__body"><small>Dip · 5 pasos</small><strong>Ajoporro y cebolla</strong><span>Suave, doradito y lleno de sabor.</span><b>Ver receta →</b></span>
+          </button>
+          <button class="recipe-card recipe-card--blue reveal" data-recipe="ajo" type="button">
+            <span class="recipe-card__image"><img src="img/receta-ajo-perejil.png" alt="Dip de queso crema con ajo y perejil" loading="lazy"></span>
+            <span class="recipe-card__body"><small>Dip · 4 pasos</small><strong>Ajo y perejil</strong><span>Fresco, aromático y listo en minutos.</span><b>Ver receta →</b></span>
+          </button>
+          <button class="recipe-card recipe-card--red reveal" data-recipe="espinaca" type="button">
+            <span class="recipe-card__image"><img src="img/receta-espinaca-cebolla.png" alt="Dip de queso crema y crema de leche con espinaca" loading="lazy"></span>
+            <span class="recipe-card__body"><small>Dip caliente · 5 pasos</small><strong>Espinaca y cebolla</strong><span>Cremoso, verde y perfecto para gratinar.</span><b>Ver receta →</b></span>
+          </button>
+          <button class="recipe-card recipe-card--blue reveal" data-recipe="fondue" type="button">
+            <span class="recipe-card__image"><img src="img/receta-fondue-cuatro-quesos.png" alt="Fondue de cuatro quesos" loading="lazy"></span>
+            <span class="recipe-card__body"><small>Fondue · 6 pasos</small><strong>Cuatro quesos</strong><span>El centro de mesa que reúne a todos.</span><b>Ver receta →</b></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="rec-banner">
+      <div class="wrap rec-banner__in reveal">
+        <div><p class="eyebrow eyebrow--blanco">¿Cuál vas a preparar?</p><h2>Cuéntanos y consigue tus productos Montreal.</h2></div>
+        <a class="btn btn--wa btn--grande" href="https://wa.me/584246117093?text=Hola%20Alimentos%20Montreal%2C%20vi%20el%20recetario%20y%20quiero%20conseguir%20los%20productos." target="_blank" rel="noopener">Escribir por WhatsApp</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="recipe-footer"><img src="img/logo-montreal.png" alt="Alimentos Montreal"><p>Hecho en Maracaibo, Zulia · Manténgase refrigerado de 2 °C a 8 °C</p><a href="index.html">Volver a la página principal</a></footer>
+
+  <dialog class="recipe-dialog" id="recipe-dialog" aria-labelledby="recipe-title">
+    <button class="recipe-dialog__close" type="button" aria-label="Cerrar receta">×</button>
+    <div class="recipe-dialog__media"><img id="recipe-image" src="" alt=""></div>
+    <div class="recipe-dialog__content">
+      <p class="eyebrow" id="recipe-kicker"></p>
+      <h2 id="recipe-title"></h2>
+      <p class="recipe-dialog__intro" id="recipe-intro"></p>
+      <ol id="recipe-steps"></ol>
+      <a class="btn btn--rojo" id="recipe-whatsapp" href="#" target="_blank" rel="noopener">Quiero preparar esta receta</a>
+    </div>
+  </dialog>
+
+  <script src="recetas.js"></script>
+</body>
+</html>
